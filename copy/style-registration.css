@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height to cover the full viewport */
+    background: linear-gradient(to bottom, #e418aa, 50%, #7a0aeb);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.background-container {
+    background: white;
+    width: 60%; /* Adjust width as needed */
+    max-width: 900px; /* Limit max width for better responsiveness */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+
+
+  hr {
+    margin-top: -2.0vh;
+    position: absolute;
+    display: inline;
+    border: solid blue;
+    width: 5vh;
+  }
+
+  .header1 {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+
+  .header2 {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+  }
+
+  .box {
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: solid;
+    border-width: 2.5px;
+  }
+
+
+  .next-button {
+    background: linear-gradient(to bottom right, purple, #7a0aeb);
+    
+    margin-left: 50px;
+    width: 150px; /* Makes the input box full width */
+    padding: 8px; /* Adds padding inside the input box */
+    border: 1px solid #ccc; /* Adds a border to the input box */
+    border-radius: 4px; /* Rounds the corners of the input box */
+    margin-top: 30px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+
+  .next-button:hover {
+    background: blue;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.gender {
+  margin-top: 9px;
+}

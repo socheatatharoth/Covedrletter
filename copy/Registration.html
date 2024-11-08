@@ -1,0 +1,91 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+        <link rel="stylesheet" href="style-registration.css">
+    </head>
+    <body>
+        <div class="background-container">
+            <form class="registration-form">
+                <h1 class="header1">Registration</h1>
+                <hr>
+                <h2 class="header2">Personal Details</h2>
+                <div class="main-container">
+                    <!-- Full name -->
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" class="box" placeholder="Enter your name" />
+                </div>
+                <!-- Date -->
+                <div class="form-group">
+                    <label for="dob">Date Of Birth</label>
+                    <input type="date" class="box" placeholder="mm/dd/yyyy" />
+              </div>
+              <!-- Email -->
+              <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="box" placeholder="Enter your email" />
+                </div>
+                <!-- Mobile Number -->
+                <div class="form-group">
+                    <label for="phonenumber">Mobile Number</label>
+                    <input
+                    type="tel"
+                    class="box"
+                    placeholder="Phone number"
+                    />
+                </div>
+              <!-- Gender -->
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                        <select class="gender">
+                            <option value="">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                </div>
+            <!-- Occupation -->
+            <div class="form-group">
+                    <label for="occupation">Occupation</label>
+                    <input type="text" class="box" placeholder="Enter your occupation" />
+                </div>
+            </div>
+            
+            <h2 class="header2">Identity Details</h2>
+            <div class="main-container">
+                <div class="form-group">
+                    <label for="idtype">ID Type</label>
+                    <input type="text" class="box" placeholder="Enter ID type" />
+                </div>
+                <div class="form-group">
+                    <label for="idnumber">ID Number</label>
+                    <input type="text" class="box" placeholder="Enter ID Number" />
+                </div>
+                <div class="form-group">
+                    <label for="issuedauthority">Issued Authority</label>
+                    <input type="text" class="box" placeholder="Enter issued authority" />
+                </div>
+                <div class="form-group">
+                    <label for="issuedstate">Issued State</label>
+                    <input type="text" class="box" placeholder="Enter issued state" />
+                </div>
+                <div class="form-group">
+                <label for="date">Issued Date</label>
+                <input type="date" class="box" placeholder="mm/dd/yyyy" />
+              </div>
+              <div class="form-group">
+                  <label for="date">Expiry Date</label>
+                  <input type="date" class="box" placeholder="mm/dd/yyyy" />
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <button class="next-button">Next</button>
+            </div>
+        </form>
+        </div>
+    </body>
+    </html>
